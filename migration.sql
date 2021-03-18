@@ -35,7 +35,6 @@ CREATE TABLE IF NOT EXISTS `adlister_db`.`users`
 )
     ENGINE = InnoDB;
 
-
 -- -----------------------------------------------------
 -- Table `mydb`.`ads`
 -- -----------------------------------------------------
@@ -57,7 +56,6 @@ CREATE TABLE IF NOT EXISTS `adlister_db`.`ads`
 )
     ENGINE = InnoDB;
 
-
 -- -----------------------------------------------------
 -- Table `mydb`.`categories`
 -- -----------------------------------------------------
@@ -70,7 +68,6 @@ CREATE TABLE IF NOT EXISTS `adlister_db`.`categories`
     PRIMARY KEY (`id`)
 )
     ENGINE = InnoDB;
-
 
 -- -----------------------------------------------------
 -- Table `mydb`.`ad_categories`
@@ -97,7 +94,6 @@ CREATE TABLE IF NOT EXISTS `adlister_db`.`ad_categories`
             ON UPDATE NO ACTION
 )
     ENGINE = InnoDB;
-
 
 -- -----------------------------------------------------
 -- Table `mydb`.`comments`
@@ -126,7 +122,6 @@ CREATE TABLE IF NOT EXISTS `adlister_db`.`comments`
 )
     ENGINE = InnoDB;
 
-
 -- -----------------------------------------------------
 -- Table `mydb`.`images`
 -- -----------------------------------------------------
@@ -147,7 +142,6 @@ CREATE TABLE IF NOT EXISTS `adlister_db`.`images`
             ON UPDATE NO ACTION
 )
     ENGINE = InnoDB;
-
 
 SET SQL_MODE = @OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS = @OLD_FOREIGN_KEY_CHECKS;
