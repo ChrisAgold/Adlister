@@ -4,6 +4,7 @@
 body {
     background: black linear-gradient(135deg, black 10%, #7367F0 100%) fixed;
     background-size: cover;
+    padding-top: 56px;
 }
 
 #container{
@@ -13,8 +14,8 @@ body {
     border-radius: 5px;
     overflow: hidden;
     margin: 5em auto;
-    height: 350px;
-    width: 700px;
+    height: 400px;
+    width: 800px;
 
 }
 
@@ -90,12 +91,12 @@ body {
 
 .control{
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     left: 22.8%;
 
 }
 /* the Button */
-.btn {
+.btn-email {
     transform: translateY(0px);
     transition: 0.3s linear;
     background: #49C608;
@@ -111,9 +112,9 @@ body {
 
 }
 
-.btn:hover{transform: translateY(-4px);}
+.btn-email :hover{transform: translateY(-4px);}
 
-.btn span {
+.btn-email  span {
     font-family: 'Farsan', cursive;
     transition: transform 0.3s;
     display: inline-block;
@@ -123,18 +124,18 @@ body {
 
 }
 /* shopping cart icon */
-.btn .price, .shopping-cart{
+.btn-email  .price, .shopping-cart{
     background: #333;
     border: 0;
     margin: 0;
 }
 
-.btn .price {
+.btn-email .price {
     transform: translateX(-10%); padding-right: 15px;
 }
 
 /* the Icon */
-.btn .shopping-cart {
+.btn-email  .shopping-cart {
     transform: translateX(-100%);
     position: absolute;
     background: #333;
@@ -144,11 +145,11 @@ body {
 }
 
 /* buy */
-.btn .buy {z-index: 3; font-weight: bolder;}
+.btn-email  .buy {z-index: 3; font-weight: bolder;}
 
-.btn:hover .price {transform: translateX(-110%);}
+.btn-email :hover .price {transform: translateX(-110%);}
 
-.btn:hover .shopping-cart {transform: translateX(0%);}
+.btn-email :hover .shopping-cart {transform: translateX(0%);}
 
 
 
