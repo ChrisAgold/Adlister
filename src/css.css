@@ -1,11 +1,28 @@
 body {
     padding-top: 56px;
     background-color: darkgreen;
+    background-image: url("img/farm.jpeg");
+}
+
+.card {
+    border-radius: 10%
 }
 
 .card:hover {
     transform: scale(1.15);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.foot {
+    margin-top: 50px;
+}
+
+.container {
+    border-radius: 3%
+}
+
+.list-group {
+    border-radius: 20%
 }
 /*.card {*/
 /*...*/

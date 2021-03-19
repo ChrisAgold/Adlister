@@ -2,9 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
 
 body {
-    background: black linear-gradient(135deg, black 10%, #7367F0 100%) fixed;
+    background: green linear-gradient(135deg, green 10%, #7367F0 100%) fixed;
     background-size: cover;
     padding-top: 56px;
+}
+
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
 }
 
 #container{
