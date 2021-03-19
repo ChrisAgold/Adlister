@@ -50,6 +50,12 @@ nav {
 .btn-text {
     color: red;
 }
+
+.img {
+    /*display: block;*/
+    width: 900px;
+    height: 350px;
+}
 /*.card {*/
 /*...*/
 /*transition: 0.5s ease;*/
