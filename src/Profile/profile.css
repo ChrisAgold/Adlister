@@ -22,6 +22,7 @@ body{
 }
 
 .card {
+    color: white;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -31,6 +32,19 @@ body{
     background-clip: border-box;
     border: 0 solid rgba(0,0,0,.125);
     border-radius: .35rem;
+}
+
+.avatar {
+    background-image: url('../img/bark.jpg');
+}
+
+.info {
+    background-image: url('../img/bark.jpg');
+}
+
+.post {
+    border-radius: .35rem;
+    background-image: url('../img/bark.jpg');
 }
 
 .card-body {
