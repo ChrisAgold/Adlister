@@ -2,6 +2,11 @@ body {
     background-image: url("../img/bark.jpg");
 }
 
+.reg {
+    justify-content: center;
+    text-align: center;
+}
+
 .register{
     background: -webkit-linear-gradient(left, green, #00c6ff);
     margin-top: 8%;
@@ -52,10 +57,12 @@ body {
 .register .register-form{
     padding: 10%;
     margin-top: 10%;
+    justify-content: center;
 }
 .btnRegister{
-    float: right;
+    /*float: right;*/
     margin-top: 10%;
+    margin-left: 30%;
     border: none;
     border-radius: 1.5rem;
     padding: 2%;
