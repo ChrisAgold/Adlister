@@ -35,12 +35,15 @@ nav {
 .list-group-item {
     background-image: url('img/wood.jpg');
     font-weight: bold;
-    color: white;
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
 }
 
 .farm-fresh {
     background-image: url('img/bark.jpg');
     font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .categories {
