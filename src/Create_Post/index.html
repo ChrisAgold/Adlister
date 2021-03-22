@@ -49,43 +49,6 @@
                 <span class="shadow-input1"></span>
             </div>
 
-            <!--Category Checkboxes-->
-            <!--            <div class="wrap-input1 validate-input" data-validate="Category is required">-->
-            <!--                &lt;!&ndash;<input class="input1" type="text" name="subject" placeholder="Category">&ndash;&gt;-->
-            <!--                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">-->
-            <!--                <label for="vehicle1"> I have a bike</label><br>-->
-            <!--                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">-->
-            <!--                <label for="vehicle2"> I have a car</label><br>-->
-            <!--                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">-->
-            <!--                <label for="vehicle3"> I have a boat</label><br>-->
-            <!--                <span class="shadow-input1"></span>-->
-            <!--            </div>-->
-            <!--            <div class="wrap-input1 validate-input" data-validate="Category is required">-->
-            <!--            <div class="custom-control custom-checkbox mb-3">-->
-            <!--                <div class="checks">-->
-            <!--                <input  type="checkbox" name="categories" id="fruit" value="1">-->
-            <!--                <label for="fruit">Fruit</label>-->
-            <!--                <input type="checkbox" name="categories" id="vegetables" value="2">-->
-            <!--                <label for="vegetables">Vegetables</label>-->
-            <!--                <input type="checkbox" name="categories" id="dairy" value="3">-->
-            <!--                <label for="dairy">Dairy</label>-->
-            <!--                <input type="checkbox" name="categories" id="baked_goods" value="4">-->
-            <!--                <label for="baked_goods">Bread</label>-->
-            <!--                <input type="checkbox" name="categories" id="jams" value="5">-->
-            <!--                <label for="jams">Jams</label>-->
-            <!--                <input type="checkbox" name="categories" id="ferments" value="6">-->
-            <!--                <label for="ferments">Ferments</label>-->
-            <!--                <input type="checkbox" name="categories" id="other" value="7">-->
-            <!--                <label for="other">Other</label>-->
-            <!--                </div>-->
-            <!--            </div>-->
-            <!--            </div>-->
-            <!--            <div class="row d-flex justify-content-center mt-100">-->
-            <!--                <div class="col-md-4">-->
-            <!--                    <div class="card">-->
-            <!--                        <div class="card-body text-center">-->
-            <!--                            <h4 class="card-title">Custom Checkbox with whole width</h4>-->
-
             <p class="card-description">Chose a category.</p>
             <div class="checks">
                 <hr class="mb-30">
@@ -97,10 +60,6 @@
                 <label class="check"> <input type="checkbox" value="6"> <span>Ferments</span> </label>
                 <label class="check"> <input type="checkbox" value="7"> <span>Other</span> </label>
             </div>
-            <!--                        </div>-->
-            <!--                    </div>-->
-            <!--                </div>-->
-            <!--            </div>-->
             <br><br>
             <div class="container-contact1-form-btn">
                 <button class="contact1-form-btn">
@@ -158,14 +117,12 @@
 <script>(function ($) {
     "use strict";
 
-
     /*==================================================================
     [ Validate ]*/
     var name = $('.validate-input input[name="name"]');
     var email = $('.validate-input input[name="email"]');
     var subject = $('.validate-input input[name="subject"]');
     var message = $('.validate-input textarea[name="message"]');
-
 
     $('.validate-form').on('submit', function () {
         var check = true;
@@ -180,7 +137,6 @@
             check = false;
         }
 
-
         if ($(email).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
             showValidate(email);
             check = false;
@@ -193,7 +149,6 @@
 
         return check;
     });
-
 
     $('.validate-form .input1').each(function () {
         $(this).focus(function () {
@@ -212,7 +167,6 @@
 
         $(thisAlert).removeClass('alert-validate');
     }
-
 
 })(jQuery);</script>
 </body>
